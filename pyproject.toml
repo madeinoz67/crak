@@ -1,9 +1,30 @@
 [tool.poetry]
 name = "crak"
-version = "0.0.1"
+version = "0.0.2"
 description = "Bruteforce password cracker"
 authors = ["Stephen Eaton <seaton@strobotics.com.au>"]
-license = "GPL"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/madeinoz67/crak"
+keywords = ["password", "crack", "bruteforce"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Security",
+    "Topic :: Utilities"
+]
+
+include=[
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = ">=3.7.1"
